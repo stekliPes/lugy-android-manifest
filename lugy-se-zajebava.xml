@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
+	<project path="zajebancije/generalKenobi" name="generalKenobi" remote="stekliPes" revision="master"/>
+	<project path="devices/lugy" name="lugy-android-devices" remote="stekliPes" revision="master"/>
+</manifest>

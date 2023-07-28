@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <include name="android-13.0.0_r60.xml"/>
+	<include name="lugy-se-zajebava.xml"/>
+	<include name="lugy-dds.xml"/>
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
+	<project path="lugy/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
+
+	<remote name="eprosima" fetch="https://github.com/eProsima/"/>
+	<project path="lugy/foonathan" name="foonathan_memory_vendor.git" remote="eprosima" revision="master"/>
+	<project path="lugy/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="master"/>
+	<project path="lugy/fastdds" name="Fast-DDS.git" remote="eprosima" revision="master"/>
+</manifest>
