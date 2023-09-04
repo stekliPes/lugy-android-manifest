@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
-	<project path="lugy/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
+	<project path="zajebancije/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
 
 	<remote name="eprosima" fetch="https://github.com/eProsima/"/>
-	<project path="lugy/foonathan" name="foonathan_memory_vendor.git" remote="eprosima" revision="master"/>
-	<project path="lugy/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="master"/>
-	<project path="lugy/fastdds" name="Fast-DDS.git" remote="eprosima" revision="master"/>
+	<project path="external/dds/foonathan" name="foonathan_memory_vendor.git" remote="eprosima" revision="refs/tags/v1.3.1"/>
+	<project path="extenral/dds/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="refs/tags/v2.0.0rc3"/>
+	<project path="external/dds/fastdds" name="Fast-DDS.git" remote="eprosima" revision="refs/tags/v2.12.0rc3"/>
 </manifest>
