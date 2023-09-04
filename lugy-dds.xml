@@ -4,13 +4,13 @@
 	<project path="external/dds/foonathan" name="memory.git" remote="foonathan" revision="refs/tags/v0.7-3"/>
 
 	<remote name="eprosima" fetch="https://github.com/eProsima/"/>
-	<project path="extenral/dds/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="refs/tags/v2.0.0rc3"/>
+	<project path="external/dds/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="refs/tags/v2.0.0rc3"/>
 	<project path="external/dds/fastdds" name="Fast-DDS.git" remote="eprosima" revision="refs/tags/v2.12.0rc3"/>
 
 			
 	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
         <project path="zajebancije/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
 	<project path="external/dds/lugy-android-build-scripts" name="lugy-android-build-scripts" remote="stekliPes" revision="master">
-		<linkfile src="fastcdr/config.h" dest="extenral/dds/fastcdr/include/fastcdr/config.h"/>
+		<linkfile src="fastcdr/config.h" dest="external/dds/fastcdr/include/fastcdr/config.h"/>
 	</project>
 </manifest>
