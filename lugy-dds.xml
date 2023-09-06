@@ -13,5 +13,8 @@
 	<project path="external/dds/lugy-android-build-scripts" name="lugy-android-build-scripts" remote="stekliPes" revision="master">
 		<linkfile src="fastcdr/config.h" dest="external/dds/fastcdr/include/fastcdr/config.h"/>
 		<linkfile src="fastcdr/fastcdr.bp" dest="external/dds/fastcdr/Android.bp"/>
+
+		<linkfile src="foonathan/config_impl.hpp" dest="external/dds/foonathan/include/foonathan/memory/config_impl.hpp"/>
+                <linkfile src="foonathan/foonathan.bp" dest="external/dds/foonathan/Android.bp"/>
 	</project>
 </manifest>
