@@ -5,7 +5,7 @@
 
 	<remote name="eprosima" fetch="https://github.com/eProsima/"/>
 	<project path="external/dds/fastcdr" name="Fast-CDR.git" remote="eprosima" revision="refs/tags/v2.0.0rc3"/>
-	<project path="external/dds/fastdds" name="Fast-DDS.git" remote="eprosima" revision="refs/tags/v2.12.0rc3"/>
+	<project path="external/dds/fastdds" name="Fast-DDS.git" remote="eprosima" revision="refs/tags/v2.12.0rc3" sync-s="true"/>
 
 			
 	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
