@@ -9,7 +9,6 @@
 
 			
 	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
-        <project path="zajebancije/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
 	<project path="external/dds/lugy-android-dds-build-artefacts" name="lugy-android-dds-build-artefacts" remote="stekliPes" revision="master">
 		<linkfile src="fastcdr/config.h" dest="external/dds/fastcdr/include/fastcdr/config.h"/>
 		<linkfile src="fastcdr/fastcdr.bp" dest="external/dds/fastcdr/Android.bp"/>
