@@ -17,6 +17,7 @@
 		<linkfile src="foonathan/config_impl.hpp" dest="external/dds/foonathan/include/foonathan/memory/config_impl.hpp"/>
 		<linkfile src="foonathan/foonathan.bp" dest="external/dds/foonathan/Android.bp"/>
 
+		<linkfile src="fastdds/fastdds.bp" dest="external/dds/fastdds/Android.bp"/>
 		<copyfile src="fastdds/DataSharingPayloadPool.hpp" dest="external/dds/fastdds/src/cpp/rtps/DataSharing/DataSharingPayloadPool.hpp"/>
 	</project>
 </manifest>
