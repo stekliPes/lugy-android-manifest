@@ -18,6 +18,7 @@
 		<linkfile src="foonathan/foonathan.bp" dest="external/dds/foonathan/Android.bp"/>
 
 		<linkfile src="fastdds/fastdds.bp" dest="external/dds/fastdds/Android.bp"/>
+		<linkfile src="fastdds/config.h" dest="external/dds/fastdds/include/fastrtps/config.h"/>
 		<copyfile src="fastdds/DataSharingPayloadPool.hpp" dest="external/dds/fastdds/src/cpp/rtps/DataSharing/DataSharingPayloadPool.hpp"/>
 	</project>
 </manifest>
