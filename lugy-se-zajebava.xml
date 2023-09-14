@@ -2,6 +2,6 @@
 <manifest>
 	<remote name="stekliPes" fetch="https://github.com/stekliPes/"/>
 	<project path="zajebancije/generalKenobi" name="generalKenobi" remote="stekliPes" revision="master"/>
-	<project path="zajebancije/dds-test" name="dds-test" remote="stekliPes" revision="master"/>
+	<project path="zajebancije/dds-test" name="dds-test" remote="stekliPes" revision="refs/tags/v0.0.1"/>
 	<project path="device/lugy" name="lugy-android-devices" remote="stekliPes" revision="master"/>
 </manifest>
