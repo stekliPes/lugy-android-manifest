@@ -19,6 +19,7 @@
 		<linkfile src="fastdds/fastdds.bp" dest="external/dds/fastdds/Android.bp"/>
 		<linkfile src="fastdds/config.h" dest="external/dds/fastdds/include/fastrtps/config.h"/>
 		<copyfile src="fastdds/DataSharingPayloadPool.hpp" dest="external/dds/fastdds/src/cpp/rtps/DataSharing/DataSharingPayloadPool.hpp"/>
+		<copyfile src="vhal/proto.bp" dest="hardware/interfaces/automotive/vehicle/proto/Android.bp"/>
 	</project>
 	<project path="external/dds/lugy-dds-vhal" name="lugy-dds-vhal" remote="stekliPes" revision="master"/>
 </manifest>
